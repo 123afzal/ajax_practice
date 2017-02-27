@@ -10,7 +10,7 @@ var obj =  J$();
 //callbacks
 
 obj.getMovies("GET", "moviedata.json").then(function (response) {
-    console.log(response[0].title)
+    console.log(response)
 })
 
 
